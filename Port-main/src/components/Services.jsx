@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaUserCheck, FaComments, FaNetworkWired } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaUserCheck, FaComments, FaDumbbell } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 
 const ProjectCard = ({ project, index }) => (
@@ -105,12 +105,12 @@ export default function Services() {
   const projects = [
     {
       id: 1,
-      title: "Face Recognition Attendance System",
-      description: "A face recognition attendance system that automates the process of marking attendance using facial recognition technology.",
-      icon: <FaUserCheck />,
-      githubLink: "https://github.com/aadi1094/Attendance-Management-System-using-Face-Recognition",
-      liveLink: "",
-      techStack: ["Flask","OpenCV","SQLite","Tkinter","Numpy","Python"]
+      title: "Eleweight",
+      description: "A personalized fitness web platform offering tailored workout splits for major muscle groups with AI-driven diet recommendations and Google Maps integration for nearby gyms.",
+      icon: <FaDumbbell />,
+      githubLink: "https://github.com/aadi1094/ELEWEIGHT-Frontend",
+      liveLink: "https://eleweight-frontend-gold.vercel.app/",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "Google Maps API", "AI Integration"]
     },
     {
       id: 2,
@@ -118,18 +118,19 @@ export default function Services() {
       description: "A real-time chat application that allows users to communicate instantly with each other, featuring user authentication and message notifications.",
       icon: <FaComments />,
       githubLink: "https://github.com/aadi1094/Realtime_Chat-App",
-      liveLink: "",
+      liveLink: "https://realtime-chat-app-1-clzj.onrender.com/",
       techStack: ["React", "TypeScript", "MongoDB", "Tailwind CSS", "Socket.io"]
     },
+    
     {
       id: 3,
-      title: "Networkify",
-      description: "A platform that check the job status and provides real-time updates on job postings and applications.",
-      icon: <FaNetworkWired />,
-      githubLink: "https://github.com/aadi1094/Nerworkify",
+      title: "Face Recognition Attendance System",
+      description: "A face recognition attendance system that automates the process of marking attendance using facial recognition technology.",
+      icon: <FaUserCheck />,
+      githubLink: "https://github.com/aadi1094/Attendance-Management-System-using-Face-Recognition",
       liveLink: "",
-      techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Responsive Design"]
-    }
+      techStack: ["Flask","OpenCV","SQLite","Tkinter","Numpy","Python"]
+    },
   ];
 
   return (

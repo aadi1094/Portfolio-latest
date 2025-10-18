@@ -1,8 +1,8 @@
-
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import { FaBriefcase } from "react-icons/fa";
 import { useState } from "react";
 
 const Nav = () => {
@@ -36,11 +36,11 @@ const Nav = () => {
       </a>
       
       <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+        href="#work-experience"
+        onClick={() => setActiveNav("#work-experience")}
+        className={activeNav === "#work-experience" ? "active" : ""}
       >
-        <AiOutlineUser />
+        <FaBriefcase />
       </a>
       <a
         href="#contact"

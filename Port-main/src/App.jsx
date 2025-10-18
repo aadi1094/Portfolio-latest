@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Skills from './components/Skills';
-import Testimonials from './components/Testimonials';
+import WorkExperience from './components/WorkExperience';
 import Contact from './components/Contact';
 import './App.css';
 import { useEffect } from 'react';
@@ -37,7 +37,7 @@ function App() {
         <Home />
         <Skills />
         <Services />
-        <Testimonials />
+        <WorkExperience />
         <Contact />
       </main>
 
