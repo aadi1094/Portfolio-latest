@@ -99,7 +99,7 @@ const Home = () => {
                 className="text-white bg-red-900 rounded-full hover:bg-red-800 border border-red-900"
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = 'https://drive.google.com/file/d/1sLdGTulqUAIc_nIc346oPg1DfrK2t9SV/view?usp=sharing';
+                  link.href = 'https://drive.google.com/file/d/1xbMAhxc6CEaYv-6Na0G5fFUYbmVxibrT/view?usp=sharing';
                   link.download = 'Aditya_Chawale_Resume.pdf';
                   document.body.appendChild(link);
                   link.click();
